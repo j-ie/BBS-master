@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="BBS-master:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/BBS_master_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="BBS-master" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="WEB-INF" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="module" name="JUnit5" module-name="BBS-master" />
+          <element id="library" level="project" name="Arquillian JUnit:Release" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="BBS-master/web/Web" />
+      <element id="javaee-facet-resources" facet="BBS-master/web/Web2" />
+    </root>
+  </artifact>
+</component>
